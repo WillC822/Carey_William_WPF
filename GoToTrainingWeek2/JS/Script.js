@@ -17,9 +17,9 @@ var name = prompt("Please type in your name");
 //Use the variable and say hello to the user
 alert ("Welcome "+name+"! Let's figure out how old you are");
 
-//Ask the user what  year they were born in
+//Ask the user what year they were born in
 //Create a variable to catch that answer
-var yearBorn = prompt("What year were you born in")
+var yearBorn = prompt("What year were you born in?")
 
 //Console.log to check that they typed something in
 console.log(yearBorn);
@@ -32,4 +32,21 @@ var currentYear = 2014;
 var age = currentYear-yearBorn;
 
 //Alert the user with their current age
-alert(name+ " you are ""+age+" "years old.");
+alert(name+" you are "+age+" years old.");
+
+//Make it more complex!!!
+//Ask the user how many years in the future they would like to know how old they will be
+
+var yearsMore = prompt("How many years in the future would you like to know?");
+
+console.log(yearsMore);
+
+//Calculate their future age
+//Cast the returned variable from a text string to a number
+// Number (thing to cast goes here)
+var futureAge = age + Number(yearsMore);
+console.log(futureAge);
+
+//Make the results look pretty
+console.log("You will be "+futureAge+" in "+yearsMore+" years.");
+alert("You will be "+futureAge+" in "+yearsMore+" years.")
