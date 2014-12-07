@@ -6,8 +6,11 @@
  12/4/14
  */
 
-Create a calculator
+//create a calculator to show the amount of miles traveled to work weekly, monthly, yearly
 
-Var miles
-var speed
-Var Distance
+//ask user their name
+var name = prompt("Please type in your name");
+
+
+
+
