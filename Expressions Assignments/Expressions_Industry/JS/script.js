@@ -3,7 +3,10 @@
  */
 /*William Carey
 Scalable Data Infrastructures
-12/5/14
+12/4/14
  */
 
-//alert("hello world")
+//Expressions Industry Calculator
+
+
+alert("hello world");
