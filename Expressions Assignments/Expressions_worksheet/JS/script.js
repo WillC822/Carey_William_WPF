@@ -3,7 +3,6 @@
 Expressions Worksheet
  */
 
-
 // A=wl calculation to find the area of a rectangle
 
 // set the width as a variable
@@ -21,7 +20,7 @@ console.log(area);
 
 
 // Find and Print the circumference of a circle
-//Calculate the circumference of a circle
+// Calculate the circumference of a circle
 
 var radius = 6;
 const PI = 3.14159265
@@ -64,12 +63,12 @@ var results = (pizzasOrdered * slice)/partyPeople
 
 //Print out results
 console.log("Each person ate " +results+  "slices of pizza at the party.");
-
+alert("Each person ate " +results+  "slices of pizza at the party.")
 
 //Slice of Pie part 2
 // Find how many slices sparky gets to eat
 
-var sparkysTake = (parseFloat(results);
+var sparkysTake = results %;
 
 // Print out results
 console.log("Sparky got " +sparkysTake+ "slices of pizza.");
@@ -77,5 +76,5 @@ console.log("Sparky got " +sparkysTake+ "slices of pizza.");
 
 //Average shopping bill
 
-
+var shoppingBill =
 
