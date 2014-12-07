@@ -20,5 +20,12 @@ var averageTime = prompt("How much hours does it take to complete \n a standard 
 //Average amount charged per project
 var averageProject = prompt["How much do you charge to complete a standard one page website?";
 
-//How many projects would the user need to complete in order to reach their goal of $100,000
-var 
+//Amount of hours in a year
+var hoursYearly = 8765.81278;
+
+//How many projects could the user complete in a year?
+var yearlyProjects = hoursYearly/averageTime;
+
+//Ask user how many projects they feel they would need to complete to reach $100,000 mark
+var userProjection = prompt("How many projects do you feel you would need to complete \n in a years time to reach $100,000?");
+
