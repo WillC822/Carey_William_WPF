@@ -12,7 +12,7 @@
 var name = prompt("Please type in your name");
 
 //say hello to user
-alert ("Hello " +name+"!, Let's approximate how many miles your drive to work daily." )
+alert ("Hello " +name+"!, Let's approximate how many miles your drive to work daily." );
 
 //find users average drive
 var averageDrive = [10, 20, 30, 50]
@@ -21,4 +21,11 @@ var averageDrive = [10, 20, 30, 50]
 var timesPerday = prompt("How many times do you drive to and from work daily",2);
 
 //how many days in a work week
-var daysWorked = prompt(How many days )
+var daysWorked = prompt("How many days are in a work week?",5);
+
+//How many days in a month
+var averageDaysinmonth = 30;
+
+//How many days in a year
+var daysYear = 365;
+
