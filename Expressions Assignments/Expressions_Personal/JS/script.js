@@ -30,8 +30,9 @@ var averageDaysinmonth = 30;
 var daysYear = 365;
 
 //Create calculation to add up how many miles driven daily, monthly, and yearly
-var totalDaily = averageDrive + timesPerday
-var totalMonthly = totalDaily * timesPerday
-var 
+var totalDaily = averageDrive + timesPerday;
+var totalMonthly = totalDaily * timesPerday;
+var yearTotal = totalMonthly * daysYear;
 
 //Create prompt to alert user to the amounts
+alert("Based on the information provided " +name+ " you drive " +totalDaily+ "miles daily, /n " +totalMonthly+ "miles monthly, and " +yearTotal+ " miles yearly.";
