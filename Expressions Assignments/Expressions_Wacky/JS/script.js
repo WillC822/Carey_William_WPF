@@ -10,14 +10,32 @@
 
 //Expressions Wacky
 
-//Calculate the amount of product in a given jar?
+//Calculate the amount of product in a given container?
+alert("I can help calculate how many items are in a given container")
 
-//Ask the user the dimensions of the container
-var jarLength = prompt("What is the length of the jar?");
-var jarHeight = prompt("What is the height of the jar?");
-var jarWidth = prompt("What is the width of the jar?");
+//What is in the container?
+var item = prompt("First, what is in the container?");
+
+//Ask the user the dimensions of the container?
+var conLength = prompt("What is the length of the container?");
+var conHeight = prompt("What is the height of the container?");
+var conWidth = prompt("What is the width of the container?");
 
 //What are the dimensions of the jars occupant?
-var SizeHeight = prompt("What is the height of the occupants?");
-var SizeLength = prompt("What is the length of the occupants?");
+var sizeHeight = prompt("What is the height of the " +item+ "?");
+var sizeLength = prompt("What is the length of the " +item+ "?");
+
+
+
+//Find the area available for the jar.
+var totalCon = conLength * conWidth * conHeight;
+//Find the area of the product.
+var totalOcc = sizeHeight * sizeLength;
+
+//Find the amount the jar can hold.
+var approximateAmount = totalCon/totalOcc;
+
+alert("Based on the information provided there are " +approximateAmount+ " " +item+ " in the jar");
+console.log("Based on the information provided there are " +approximateAmount+ " " +item+ " in the jar");
+
 
