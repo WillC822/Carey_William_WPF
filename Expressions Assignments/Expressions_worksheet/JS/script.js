@@ -82,3 +82,5 @@ var total = shoppingBills[0] + shoppingBills[1] + shoppingBills[2] + shoppingBil
 //Create a variable to calculate average bill
 var averageBill = total/5
 
+//print out results
+console.log("You have spent a total of " +total+ " on groceries over 5 weeks \n that is an average of " +averageBill+ "per week.")
