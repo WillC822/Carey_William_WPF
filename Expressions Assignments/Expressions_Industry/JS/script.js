@@ -8,5 +8,7 @@ Scalable Data Infrastructures
 
 //Expressions Industry Calculator
 
+//Introduction
+alert("Hello")
 
-alert("hello world")
+//

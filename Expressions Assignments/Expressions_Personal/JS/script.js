@@ -35,4 +35,4 @@ var totalMonthly = totalDaily * timesPerday;
 var yearTotal = totalMonthly * daysYear;
 
 //Create prompt to alert user to the amounts
-alert( +name+ "Based on the information provided you drive " +totalDaily+ " miles daily,\n " +totalMonthly+ " miles monthly, and " +yearTotal+ " miles yearly.");
+alert("Based on the information provided you drive " +totalDaily+ " miles daily,\n " +totalMonthly+ " miles monthly, and " +yearTotal+ " miles yearly.");
