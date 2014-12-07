@@ -34,6 +34,7 @@ console.log("The circumfernce of the circle is" + circ);
 
 
 //Dog years
+
 //Enter in the variable for dog years
 var dogYears= 7;
 
@@ -42,3 +43,6 @@ var humanYears = 30
 
 //Set the variable for sparkys age by dogYears times humanYears
 var sparkysAge = dogYears * humanYears
+
+//print out sparkys age
+console.log("Sparky is " +humanYears+ " human years old which is " +sparkysAge+ "in dog years.");
