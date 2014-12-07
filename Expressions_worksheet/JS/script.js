@@ -66,5 +66,16 @@ var results = (pizzasOrdered * slice)/partyPeople
 console.log("Each person ate " +results+  "slices of pizza at the party.");
 
 
+//Slice of Pie part 2
+// Find how many slices sparky gets to eat
+
+var sparkysTake = (parseFloat(results);
+
+// Print out results
+console.log("Sparky got " +sparkysTake+ "slices of pizza.");
+
+
+//Average shopping bill
+
 
 
