@@ -28,7 +28,7 @@ const PI = 3.14159265;
 //multiply 2, PI and the raius & assign to circ variable
 var circ = radius *2 * PI;
 //print out the output circumference
-console.log("The circumfernce of the circle is" + circ);
+console.log("The circumfernce of the circle is " + circ);
 
 
 
@@ -44,7 +44,7 @@ var humanYears = 30;
 var sparkysAge = dogYears * humanYears;
 
 //print out sparkys age
-console.log("Sparky is " +humanYears+ " human years old which is " +sparkysAge+ "in dog years.");
+console.log("Sparky is " +humanYears+ " human years old which is " +sparkysAge+ " in dog years.");
 
 
 //Slice of Pie part 1
@@ -68,7 +68,8 @@ alert("Each person ate " +results+  "slices of pizza at the party.");
 //Slice of Pie part 2
 // Find how many slices sparky gets to eat
 
-var sparkysTake = results %;
+var sparkysTake = results % 100;
+
 
 // Print out results
 console.log("Sparky got " +sparkysTake+ "slices of pizza.");
@@ -83,7 +84,7 @@ var total = shoppingBills[0] + shoppingBills[1] + shoppingBills[2] + shoppingBil
 var averageBill = total/5;
 
 //print out results
-console.log("You have spent a total of " +total+ " on groceries over 5 weeks \n that is an average of " +averageBill+ "per week.");
+console.log("You have spent a total of " +total+ " on groceries over 5 weeks \n that is an average of " +averageBill+ " per week.");
 
 
 
@@ -92,13 +93,15 @@ console.log("You have spent a total of " +total+ " on groceries over 5 weeks \n 
 var originalPrice = 100;
 
 //Discount Percentage = .2;
-var discount = .2;
+var discount = 20;
+discount = .2
 
 //Description of Item
 var item = ("coat");
 
 //Sales tax Percentage = .06;
-var salesTax = .06;
+var salesTax = 6;
+salesTax = .06
 
 //Price w/otax = original price times discount
 var priceNotax = originalPrice * discount;
