@@ -11,6 +11,9 @@
 //ask user their name
 var name = prompt("Please type in your name");
 
+//say hello to user
+alert ("Hello " +name+"!, Let's approximate how many miles your drive to work daily." )
+
 
 
 
