@@ -23,7 +23,7 @@ console.log(area);
 // Calculate the circumference of a circle
 
 var radius = 6;
-const PI = 3.14159265
+const PI = 3.14159265;
 
 //multiply 2, PI and the raius & assign to circ variable
 var circ = radius *2 * PI;
@@ -38,10 +38,10 @@ console.log("The circumfernce of the circle is" + circ);
 var dogYears= 7;
 
 //Enter in the variable for human years
-var humanYears = 30
+var humanYears = 30;
 
 //Set the variable for sparkys age by dogYears times humanYears
-var sparkysAge = dogYears * humanYears
+var sparkysAge = dogYears * humanYears;
 
 //print out sparkys age
 console.log("Sparky is " +humanYears+ " human years old which is " +sparkysAge+ "in dog years.");
@@ -56,14 +56,14 @@ var slice = 12;
 var partyPeople = 100;
 
 //Number of Pizzas ordered
-var pizzasOrdered = 25
+var pizzasOrdered = 25;
 
 //Find equation to show how many slices each person can have
-var results = (pizzasOrdered * slice)/partyPeople
+var results = (pizzasOrdered * slice)/partyPeople;
 
 //Print out results
 console.log("Each person ate " +results+  "slices of pizza at the party.");
-alert("Each person ate " +results+  "slices of pizza at the party.")
+alert("Each person ate " +results+  "slices of pizza at the party.");
 
 //Slice of Pie part 2
 // Find how many slices sparky gets to eat
@@ -78,9 +78,21 @@ console.log("Sparky got " +sparkysTake+ "slices of pizza.");
 //Create array with bill amounts
 var shoppingBills = [40, 60, 100, 135, 160];
 //Create a variable to catch total
-var total = shoppingBills[0] + shoppingBills[1] + shoppingBills[2] + shoppingBills[3] + shoppingBills[4]
+var total = shoppingBills[0] + shoppingBills[1] + shoppingBills[2] + shoppingBills[3] + shoppingBills[4];
 //Create a variable to calculate average bill
-var averageBill = total/5
+var averageBill = total/5;
 
 //print out results
-console.log("You have spent a total of " +total+ " on groceries over 5 weeks \n that is an average of " +averageBill+ "per week.")
+console.log("You have spent a total of " +total+ " on groceries over 5 weeks \n that is an average of " +averageBill+ "per week.");
+
+
+
+//Discounts on an item
+//Original Price = 100
+var originalPrice = 100;
+
+//Discount Percentage = .2;
+var discount = .2;
+
+//Sales tax Percentage = 
+
