@@ -15,7 +15,7 @@ var name = prompt("Please type in your name");
 alert ("Hello " +name+"!, Let's approximate how many miles your drive to work daily." );
 
 //find users average drive
-var averageDrive = [10, 20, 30, 50]
+var averageDrive = prompt("What's your average miles driven to work daily?")
 
 //how many times does user travel to and from work daily
 var timesPerday = prompt("How many times do you drive to and from work daily",2);
@@ -29,3 +29,9 @@ var averageDaysinmonth = 30;
 //How many days in a year
 var daysYear = 365;
 
+//Create calculation to add up how many miles driven daily, monthly, and yearly
+var totalDaily = averageDrive + timesPerday
+var totalMonthly = totalDaily * timesPerday
+var 
+
+//Create prompt to alert user to the amounts
