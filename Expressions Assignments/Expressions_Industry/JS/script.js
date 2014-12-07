@@ -29,3 +29,11 @@ var yearlyProjects = hoursYearly/averageTime;
 //Ask user how many projects they feel they would need to complete to reach $100,000 mark
 var userProjection = prompt("How many projects do you feel you would need to complete \n in a years time to reach $100,000?");
 
+//Provide user with amount of projects needed and how much more or less it was than their own projection
+var finalProjection = yearlyProjects/100000;
+var difference = finalProjection - userProjection
+
+alert("Based on the information you provided you would need to complete "+finalProjection+ "\n in order to make $100,000 over the course of a year.");
+alert("The difference based on your estimate was " +difference+ ".");
+console.log("Based on the information you provided you would need to complete "+finalProjection+ "\n in order to make $100,000 over the course of a year.");
+console.log("The difference based on your estimate was " +difference+ ".");
