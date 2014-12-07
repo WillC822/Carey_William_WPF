@@ -14,6 +14,11 @@ var name = prompt("Please type in your name");
 //say hello to user
 alert ("Hello " +name+"!, Let's approximate how many miles your drive to work daily." )
 
+//find users average drive
+var averageDrive = [10, 20, 30, 50]
 
+//how many times does user travel to and from work daily
+var timesPerday = prompt("How many times do you drive to and from work daily",2);
 
-
+//how many days in a work week
+var daysWorked = prompt(How many days )
