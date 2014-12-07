@@ -94,5 +94,20 @@ var originalPrice = 100;
 //Discount Percentage = .2;
 var discount = .2;
 
-//Sales tax Percentage = 
+//Description of Item
+var item = ("coat");
+
+//Sales tax Percentage = .06;
+var salesTax = .06;
+
+//Price w/otax = original price times discount
+var priceNotax = originalPrice * discount;
+
+//Price w/tax = priceNotax times salesTax
+var priceWtax = priceNotax * salesTax
+
+//print out results
+console.log("Your " +item+ " was originally " +originalPrice+", but after a " +discount+", it is now " +priceNotax+ "without tax, and " +priceWtax+ "with tax.")
+
+
 
