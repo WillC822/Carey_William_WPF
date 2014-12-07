@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16719278-50c5-4f15-96e2-59d5fdef8628" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Expressions_Industry/JS/script.js" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_Industry/JS/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Expressions_Industry/expressionsIndustry.html" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_Industry/expressionsIndustry.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Expressions_Personal/JS/script.js" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_Personal/JS/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Expressions_Personal/expressionsPersonal.html" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_Personal/expressionsPersonal.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Expressions_Wacky/JS/script.js" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_Wacky/JS/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Expressions_Wacky/expressionsWacky.html" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_Wacky/expressionsWacky.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Expressions_worksheet/JS/script.js" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_worksheet/JS/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Expressions_worksheet/expressionWorksheet.html" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_worksheet/expressionWorksheet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions Assignments/Expressions_worksheet/JS/script.js" afterPath="$PROJECT_DIR$/Expressions Assignments/Expressions_worksheet/JS/script.js" />
     </list>
     <ignored path="Carey_William_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +29,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions Assignments/Expressions_worksheet/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9133949" vertical-offset="409" max-vertical-offset="1290">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9307159" vertical-offset="424" max-vertical-offset="1350">
+              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -69,6 +62,7 @@
         <option value="$PROJECT_DIR$/Expressions_Personal/JS/script.js" />
         <option value="$PROJECT_DIR$/Expressions_worksheet/expressionWorksheet.html" />
         <option value="$PROJECT_DIR$/Expressions_worksheet/JS/script.js" />
+        <option value="$PROJECT_DIR$/Expressions Assignments/Expressions_worksheet/JS/script.js" />
       </list>
     </option>
   </component>
@@ -338,14 +332,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="648" y="49" width="982" height="986" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997763" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26847035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26847035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -495,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions Assignments/Expressions_worksheet/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9133949" vertical-offset="409" max-vertical-offset="1290">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9307159" vertical-offset="424" max-vertical-offset="1350">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

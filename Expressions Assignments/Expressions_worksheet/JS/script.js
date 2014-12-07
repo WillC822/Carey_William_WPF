@@ -75,6 +75,10 @@ console.log("Sparky got " +sparkysTake+ "slices of pizza.");
 
 
 //Average shopping bill
-
-var shoppingBill =
+//Create array with bill amounts
+var shoppingBills = [40, 60, 100, 135, 160];
+//Create a variable to catch total
+var total = shoppingBills[0] + shoppingBills[1] + shoppingBills[2] + shoppingBills[3] + shoppingBills[4]
+//Create a variable to calculate average bill
+var averageBill = total/5
 
