@@ -27,7 +27,7 @@ var radius = 6;
 const PI = 3.14159265
 
 //multiply 2, PI and the raius & assign to circ variable
-var circ = radius *2 * Pi;
+var circ = radius *2 * PI;
 //print out the output circumference
 console.log("The circumfernce of the circle is" + circ);
 
@@ -46,3 +46,25 @@ var sparkysAge = dogYears * humanYears
 
 //print out sparkys age
 console.log("Sparky is " +humanYears+ " human years old which is " +sparkysAge+ "in dog years.");
+
+
+//Slice of Pie part 1
+// Find the amount of slices each person can have at the party
+//Find slices in a large pizza (12)
+var slice = 12;
+
+//People at the party
+var partyPeople = 100;
+
+//Number of Pizzas ordered
+var pizzasOrdered = 25
+
+//Find equation to show how many slices each person can have
+var results = (pizzasOrdered * slice)/partyPeople
+
+//Print out results
+console.log("Each person ate " +results+  "slices of pizza at the party.");
+
+
+
+
