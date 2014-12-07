@@ -11,4 +11,5 @@ Scalable Data Infrastructures
 //Introduction
 alert("Hello")
 
-//
+//Make a calculator to show the amount of hours or projects needed to make 100,000
+var
