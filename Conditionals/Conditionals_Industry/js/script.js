@@ -16,6 +16,16 @@
 //Calculate paycheck based on hours worked.
 alert("Let's find out what your paycheck is going to be.");
 
+//Find out hours worked in pay period
+var hoursWorked = prompt("How many hours did you work for your last pay period?");
+
+//Find out Hourly Pay
+var hourlyPay = prompt("How much do you get paid hourly?");
+
+//Calculate base pay
+var basePay = hoursWorked*hourlyPay;
+
+
 
 //what's my paycheck going to be
 //how many hours did i work
