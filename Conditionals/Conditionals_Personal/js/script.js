@@ -14,11 +14,14 @@
 // are you willing to run
 // can you tell which way the wind is blowing
 
+
 //is it a windy day
 
-var windy = true;
-var windSpeed =
-windspeed=>3;
+var windy = 5;
+var windSpeed;
+var windCond;
+
+windCond = (windSpeed < 5)
 
 prompt("Is it windy outside?");
 
