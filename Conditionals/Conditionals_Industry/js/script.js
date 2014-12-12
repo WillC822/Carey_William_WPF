@@ -20,7 +20,7 @@ alert("Let's find out what your paycheck is going to be.");
 var hoursWorked = prompt("How many hours did you work for your last 2 week pay period?");
 
 //Did they work ovetime also?
-var overTime = prompt("Did you work any overtime?");True
+var overTime = prompt("Did you work any overtime?");
 
 
 //Find out Hourly Pay
@@ -29,9 +29,13 @@ var hourlyPay = prompt("How much do you get paid hourly?");
 //Calculate base pay
 var basePay = hoursWorked*hourlyPay;
 
-if
-alert("Based on the information provided you will get a gross pay of " +basePay+ "!");
+if(hoursWorked==80) console.log("Based on the information provided you will get a gross pay of " +basePay+ "!");{
+ else
+}prompt("How many hours of overtime did you work?");
 
+if (overtime=true) hourlyPay*1.5+basePay==overTime;
+alert("Based on the information provided you will get a gross pay of " +basePay+ "!");
+console.log("Based on the information provided you will get a gross pay of " +basePay+ "!");
 
 
 
