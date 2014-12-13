@@ -19,10 +19,17 @@ alert("Let's find out what your paycheck is going to be.");
 //Find out hours worked in pay period(Bi-Weekly)
 var hoursWorked = prompt("How many hours did you work for your last 2 week pay period?\n Not including overtime.");
 
+if(hoursWorked===""){
+ //the user left it blank
+
+ //Re-prompt the user
+ hoursWorked=prompt("Please do not leave blank, How many hours did you work for your last 2 week pay period?\n Not including overtime.");
+
 //Did they work ovetime also?
 var overTime = prompt("Did you work any overtime?");
 
-if(overTime == "yes");{
+if (overTime === "yes")
+
  //Find out time over
  var timeOver = prompt("How much overtime did you work?");
 }
@@ -52,8 +59,12 @@ console.log("Based on the information provided you will get a gross pay of " +ba
  console.log("Based on the information provided you will get a gross pay of " +basePay+overtimePay+ "!");
 }
 */
-(hoursWorked <=80) ? console.log&&alert ("Based on the information you provided you will get a gros pay of " +basepay+ "!") : console.log&&alert("Based on the information provided you will get a gross pay of " +basePay+overtimePay+ "!");
+(hoursWorked <=80) ? console.log&&alert ("Based on the information you provided you will get a gross pay of " +basePay+ "!") : console.log&&alert("Based on the information provided you will get a gross pay of " +basePay+overtimePay+ "!");
 
 
+if(hoursWorked===""){
+ //the user left it blank
 
+ //Re-prompt the user
+ hoursWorked=prompt("Please do not leave blank, How many hours did you work for your last 2 week pay period?\n Not including overtime.");
 
