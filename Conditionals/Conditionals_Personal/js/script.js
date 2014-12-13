@@ -16,16 +16,20 @@
 
 //Leo is my babies name, he was born Nov 16 2014 at 2lbs, 6oz
 var babyLeo = ("Leo");
+
 //set a variable for baby's weight
-var babyWeight = (0);
+var babyWeight = 0;
+
 //set variable to show any weight greater than 4lbs makes him good to go
-var i=0
+for(var l=0 ; l>4; l++){
+    console.log();
+    console.log(babyWeight[l]);
+
 //set variable to confirm baby eating
 var babyEating = true;
+
 //set variable to confirm baby's breathing on his own
 var babyOxy= true;
-
-
 
 alert( " " +babyLeo+ " is in the hospital, let's see what's it gonna take to get him out");
 
@@ -37,8 +41,13 @@ prompt = ("Is " +babyLeo+ " eating on his own?");
 
 //Is baby's weight greater than or equal to 5
 if(babyWeight>=5 && babyEating && babyOxy){
-    console.log(+babyLeo+ " is doing great and you can take him home.");
+    console.log(" "+babyLeo+ " is doing great and you can take him home.");
 
 }else{
-    console.log(+babyLeo+ "isn't quite ready to go home yet.")
+    console.log(" "+babyLeo+ "isn't quite ready to go home yet.")
+}
+
+for(var l=0 ; l>4; l++){
+    console.log();
+    console.log(babyWeight[l]);
 }
