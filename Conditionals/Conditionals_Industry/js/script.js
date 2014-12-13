@@ -37,7 +37,9 @@ if (overtime=true) hourlyPay*1.5+basePay==overTime;
 alert("Based on the information provided you will get a gross pay of " +basePay+ "!");
 console.log("Based on the information provided you will get a gross pay of " +basePay+ "!");
 
-
+if(overtime===true){
+ console.log
+}
 
 //what's my paycheck going to be
 //how many hours did i work
