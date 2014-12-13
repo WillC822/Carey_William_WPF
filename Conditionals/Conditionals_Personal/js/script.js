@@ -15,13 +15,30 @@
 //He must eat on his own
 
 //Leo is my babies name, he was born Nov 16 2014 at 2lbs, 6oz
-var babyLeo =  "Leo";
+var babyLeo = ("Leo");
 //set a variable for baby's weight
 var babyWeight = (0);
 //set variable to show any weight greater than 4lbs makes him good to go
 var i=0
 //set variable to confirm baby eating
-var babyEating= True;
+var babyEating = true;
 //set variable to confirm baby's breathing on his own
-var babyOxy= True;
+var babyOxy= true;
 
+
+
+alert( " " +babyLeo+ " is in the hospital, let's see what's it gonna take to get him out");
+
+//is baby breathing on his own
+prompt = ("Is " +babyLeo+ " breathing on his own?");
+
+//is baby eating on his own
+prompt = ("Is " +babyLeo+ " eating on his own?");
+
+//Is baby's weight greater than or equal to 5
+if(babyWeight>=5 && babyEating && babyOxy){
+    console.log(+babyLeo+ " is doing great and you can take him home.");
+
+}else{
+    console.log(+babyLeo+ "isn't quite ready to go home yet.")
+}
