@@ -36,6 +36,5 @@ if(windy==true){
  console.log("Let's go fly a kite!");
 }else{
  console.log("Wait for the wind to pick up!");}
-or
 
 
