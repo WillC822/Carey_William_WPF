@@ -44,19 +44,15 @@ alert("Based on the information provided you will get a gross pay of " +basePay+
 console.log("Based on the information provided you will get a gross pay of " +basePay+ "!");
 */
 
-if(){
-
-}else
-
-
-if(hoursWorked<=80){
+/*if(hoursWorked<=80){
  alert("Based on the information provided you will get a gross pay of " +basePay+ "!");
  console.log("Based on the information provided you will get a gross pay of " +basePay+ "!");
 }else{
  alert("Based on the information provided you will get a gross pay of " +basePay+overtimePay+ "!");
  console.log("Based on the information provided you will get a gross pay of " +basePay+overtimePay+ "!");
 }
-
+*/
+(hoursWorked <=80) ? console.log&&alert ("Based on the information you provided you will get a gros pay of " +basepay+ "!") : console.log&&alert("Based on the information provided you will get a gross pay of " +basePay+overtimePay+ "!");
 
 
 
