@@ -26,28 +26,24 @@ for(var l=0 ; l>4; l++){
     console.log(babyWeight[l]);
 
 //set variable to confirm baby eating
-var babyEating = true;
+var babyEat = true;
 
 //set variable to confirm baby's breathing on his own
-var babyOxy= true;
+var babyO= true;
 
 alert( " " +babyLeo+ " is in the hospital, let's see what's it gonna take to get him out");
 
-//is baby breathing on his own
-prompt = ("Is " +babyLeo+ " breathing on his own?");
+//Prompt answer is baby breathing on his own
+var babyOxy = prompt("Is " +babyLeo+ " breathing on his own?");
 
-//is baby eating on his own
-prompt = ("Is " +babyLeo+ " eating on his own?");
+//Prompt answer is baby eating on his own
+var babyEating = prompt("Is " +babyLeo+ " eating on his own?");
 
 //Is baby's weight greater than or equal to 5
-if(babyWeight>=5 && babyEating && babyOxy){
-    console.log(" "+babyLeo+ " is doing great and you can take him home.");
+if(babyWeight>=5 && (babyEat===babyEating && (babyO===babyOxy){
+    console.log(" " +babyLeo+ " is doing great and you can take him home.");
 
 }else{
-    console.log(" "+babyLeo+ "isn't quite ready to go home yet.")
+    console.log(" " +babyLeo+ "isn't quite ready to go home yet.")
 }
 
-for(var l=0 ; l>4; l++){
-    console.log();
-    console.log(babyWeight[l]);
-}
