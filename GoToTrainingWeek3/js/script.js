@@ -141,5 +141,6 @@ if(isNAN(userNumber)){
     //this is a text string
     //reprompt user for a number
     userNumber = prompt("Only type in a number")
-
 }
+
+var test =
