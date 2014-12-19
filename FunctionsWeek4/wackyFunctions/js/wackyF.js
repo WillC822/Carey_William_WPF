@@ -42,8 +42,8 @@ var earthCirc = 24902;
 var timeAround = earthCirc/speedSound;
 //Prompt to alert user of calculations
 alert("Superman could travel around the earth" +timeAround+ "times in an hour." );
-//Ternary to show the comparison between what someone may think
-miles = (timeAround>hour) ? "Geez he's fast" : "I assumed he'd be faster";
+//Ternary to show the comparison between how fast he is and how many times he can go around the earth
+miles = (timeAround<hour) ? "Geez he's fast" : "I assumed he'd be faster";
 console.log(miles);
 alert(miles);
 //Prompt user for best guess based on information provided
