@@ -12,10 +12,11 @@
 alert("Superman is said to be as fast or faster than the speed of sound \nHow long would it take him to travel around the earth?");
 var superDistance = function(feet,seconds){
     var feet = 5280;
-    var seconds= 60;
+    var seconds= 3600;
     var superMan = feet*seconds;
     return superMan;
 }
+
 //Speed of sound
 var speedSound = 767;
 
@@ -44,3 +45,8 @@ miles = (timeAround>hour) ? "Geez he's fast" : "I assumed he'd be faster";
 console.log(miles);
 alert(miles);
 
+var user = prompt("Based on the previous answer how many times do you think he could go around in 3.5 hours?");
+
+userMiles = (timeAround=>user) ? "Close but not quite" : "Great job!!!";
+console.log(userMiles);
+alert(userMiles);
