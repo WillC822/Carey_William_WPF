@@ -8,7 +8,7 @@ SDI 1412
 //alert("test to see if code works");
 
 
-// Going to write code to determine the depriciation of a new car over the next 5 years
+// Going to write code to determine the depriciation of a car.
 
 
 //Code to find out how much car was worth when purchased
@@ -80,8 +80,7 @@ alert(finDep);
 
 
 
-
-
+//wanted to try to use a function to account for the following years.
 /*function totDep (yrs,dep,){
     return(y*d)-c;
 }
