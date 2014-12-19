@@ -49,7 +49,7 @@ function calcBeeStings(w,s)
 }
 
 
-console.log('------Loops --------");
+//console.log('------Loops --------");
 
 var b = 10 //Sets up the index
 while (b > 0){   ///checks the conditions
@@ -58,9 +58,9 @@ while (b > 0){   ///checks the conditions
 }
 
 
-console.log('------Do While Loops --------");
+//console.log('------Do While Loops --------");
 
-var c = 10
+var c = 10;
 
 do{
     console.log(c + 'kegs on the wall');
@@ -69,11 +69,11 @@ do{
 while (C>0);
 
 
-console.log('------For Loops --------");
+//console.log('------For Loops --------");
 
 
 for (var i = 10; i > 0, i--){
-    console.log(i + 'kegs on the wall')
+    console.log(i + 'kegs on the wall');
 }
 
 
