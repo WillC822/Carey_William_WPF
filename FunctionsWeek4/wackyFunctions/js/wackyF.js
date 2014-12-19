@@ -5,3 +5,5 @@
  */
 
 alert("test to see if code works");
+
+var
