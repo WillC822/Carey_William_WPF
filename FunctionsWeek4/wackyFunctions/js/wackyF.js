@@ -38,7 +38,7 @@ var time=(min*i++);
 //This is the earths mileage around it's circumference
 var earthCirc = 24902;
 
-//The time around is equal to the speed of sound divided by earthscircumferennce
+//The time around is equal to the speed of sound divided by earths circumferennce
 var timeAround = earthCirc/speedSound;
 //Prompt to alert user of calculations
 alert("Superman could travel around the earth" +timeAround+ "times in an hour." );
