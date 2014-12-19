@@ -13,7 +13,7 @@ var name = prompt("What is your name?");
 var hungry = prompt("Hi " +name+ " are you hungry,\nPlease answer Yes or No?");
 
 //If the person is hungry and answers any variation of yes.
-if(hungry==="YES"||"Yes"||"yes"){
+if(hungry==="YES"|| hungry==="Yes"|| hungry==="yes"){
     //See what they're in the mood for
     console.log("Great, let's see what you may be in the mood for?");
     alert("Great, let's see what you may be in the mood for?");
@@ -23,22 +23,37 @@ if(hungry==="YES"||"Yes"||"yes"){
     alert("Well, maybe if you see what's to offer you may change your mind");
 }
 //Ask what the user is in the mood for.
-var taste = prompt("Are you in the mood for BBQ, Tacos, American, Italian, Japanese or Mexican?");
-
-/*
-Prob don't need this because of the previous question
-//What are you in the mood for
-var mood =["BBQ","Island Tacos","American", "Italian", "Japanese","Mexican"];
-*/
+var taste = prompt("Are you in the mood for BBQ, Fish Tacos, Fast Food, Italian, Japanese or Tex-Mex?");
 
 //Where should we go to eat for dinner.
-var rest =["Jimmy Hulas","Texas Roadhouse","Zaxbys","Olive Garden","Bahama Breeze", "Kobe", "Chevys","4Rivers"];
+var rest =["4Rivers","Jimmy Hulas","Zaxbys","Olive Garden","Kobe", "Chevys"];
 
+//What are you in the mood for
+var mood =["BBQ","Fish Tacos","Fast Food", "Italian", "Japanese","TexMex"];
 
+var restBBQ = mood[0]=rest[0]
+var restFISHTACOS = mood[1]=rest[1]
+var restFASTFOOD = mood[2]=rest[2]
+var restITALIAN = mood[3]=rest[3]
+var restJAPANESE = mood[4]=rest[4]
+var restTexMex = mood[5]=rest[5]
 
 //How much are you able to spend
 var price = prompt("Are you looking for someplace cheap, moderate or expensive");
 
-function(){
-    rest[0]&&mood[]
+var pricePoint=["cheap", "moderate", "expensive"];
+
+
+
+//Use a function to input all the answers and dependent on the answers given choose a corresponding restaraunt
+function restChoice(prcPnt,tste){
+    console.log()
+
+
+    }
 }
+restChoice(pricePoint,taste);
+
+(rest===
+
+
