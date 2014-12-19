@@ -49,6 +49,8 @@ function restChoice(a,b,c,d,e,f){
     return restChoice(taste&&"a"||"b"||"c"||"d"||"e"||"f");
     }
 
+
+//Tried a different method than the function to display out answer
 if(taste===moodArray2[0]){
     alert("Let's go to 4Rivers!");
     console.log("Let's go to 4Rivers!")
