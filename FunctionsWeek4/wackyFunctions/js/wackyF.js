@@ -62,11 +62,11 @@ console.log("In that amount of time Superman could circle the earth "+timeAround
 var feetAround = (earthCirc * timeAround);
 
 //Calc to measure in miles
-var milesAround = (feetAround/5280);
+var milesAround = (feetAround*5280);
 
 //Alert and C-Log users of new calculations
-alert("This would be the equivalent of "+milesAround+ "feet!");
-console.log("This would be the equivalent of "+milesAround+ "feet!");
+alert("This would be the equivalent of "+milesAround+ " feet!");
+console.log("This would be the equivalent of "+milesAround+ " feet!");
 
 
 
