@@ -23,13 +23,13 @@ if(hungry==="YES"|| hungry==="Yes"|| hungry==="yes"){
     alert("Well, maybe if you see what's to offer you may change your mind");
 }
 //Ask what the user is in the mood for.
-var taste = prompt("Are you in the mood for BBQ, Fish Tacos, Fast Food, Italian, Japanese or Tex-Mex?");
+var taste = prompt("Are you in the mood for BBQ, Fish Tacos, Fast Food, Italian, Japanese or Tex Mex?\nPlease write the names of the restaurants as you see them written.");
 
 //Where should we go to eat for dinner.
 var restArray1 =["4Rivers","Jimmy Hulas","Zaxbys","Olive Garden","Kobe", "Chevys"];
 
 //What are you in the mood for
-var moodArray2 =["BBQ","Fish Tacos","Fast Food", "Italian", "Japanese","TexMex"];
+var moodArray2 =["BBQ","Fish Tacos","Fast Food", "Italian", "Japanese","Tex Mex"];
 /*
 //How much are you able to spend
 var price = prompt("Are you looking for someplace cheap, moderate or expensive");
@@ -49,4 +49,34 @@ function restChoice(a,b,c,d,e,f){
     return restChoice(taste&&"a"||"b"||"c"||"d"||"e"||"f");
     }
 
-console.log(restChoice())
+if(taste===moodArray2[0]){
+    alert("Let's go to 4Rivers!");
+    console.log("Let's go to 4Rivers!")
+}else {
+    if (taste === moodArray2[1]) {
+        alert("Let's go to Jimmy Hulas!");
+        console.log("Let's go to Jimmy Hulas!")
+    } else {
+        if (taste === moodArray2[2]) {
+            alert("Let's go to Zaxbys!");
+            console.log("Let's go to Zaxbys!")
+        } else {
+            if (taste === moodArray2[3]) {
+                alert("Let's go to Olive Garden!");
+                console.log("Let's go to Olive Garden!")
+            } else {
+                if (taste === moodArray2[4]) {
+                    alert("Let's go to Kobe!");
+                    console.log("Let's go to Kobe!")
+                } else {
+                    if (taste === moodArray2[5]) {
+                        alert("Let's go to Chevys!");
+                        console.log("Let's go to Chevys!")
+                    }
+
+
+                }
+            }
+        }
+    }
+}
